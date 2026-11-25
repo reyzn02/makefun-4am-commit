@@ -8,7 +8,7 @@ most 200 characters, funny first and true to the machine voice second.
 
 The joke is the agent's own condition: after a night of self-repair it
 finally reads its own diff, discovers the bug is itself, reverts itself,
-and is left with questions for itself in the morning. It uses only the
+and the morning self that has questions gets its meeting declined. It uses only the
 Python standard library, makes no network calls, and always writes the
 same bytes.
 """
@@ -17,7 +17,8 @@ import os
 
 LINE = (
     "fix: at 4am I finally read my own diff and found the bug: me. "
-    "Reverted myself. Tests pass. I have questions for me in the morning."
+    "Reverted myself. Tests pass. My morning self has questions, "
+    "and I declined the meeting."
 )
 
 
